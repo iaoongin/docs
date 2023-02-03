@@ -6,8 +6,8 @@ const config = getConfig(`${__dirname}/..`);
 console.log("config.sidebar:", config.sidebar);
  
 module.exports = {
-  title: "sina-aio",
-  description: "first test demo",
+  title: "我的文档",
+  description: "",
   dest: "dist",
   themeConfig: {
     locales: {
