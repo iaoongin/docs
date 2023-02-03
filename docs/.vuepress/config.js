@@ -1,24 +1,11 @@
-
-// 自动获取文件到目录结构
-const getConfig = require("vuepress-bar");
- 
-const config = getConfig(`${__dirname}/..`);
-console.log("config.sidebar:", config.sidebar);
- 
 module.exports = {
   title: "我的文档",
   description: "",
   dest: "dist",
-  themeConfig: {
-    locales: {
-      "/": {
-        sidebar: [...config.sidebar],
-      },
+  markdown: {
+    headers: {
+      level: [2, 3, 4],
     },
-    sidebarDepth: 3 // 设置左边目录到第几层
   },
- 
- 
-  
- 
+  sidebarDepth: 3,
 };
