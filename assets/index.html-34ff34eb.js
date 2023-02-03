@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-39c37bf5","path":"/%E6%97%85%E6%B8%B8/","title":"旅游","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1675397577000,"contributors":[{"name":"yffjglcms","email":"yffjglcms@gmail.com","commits":1}]},"filePathRelative":"旅游/README.md"}');export{t as data};
